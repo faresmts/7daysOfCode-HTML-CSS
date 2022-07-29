@@ -1,0 +1,63 @@
+body {
+    background-color: white;
+}
+
+nav {
+    display: flex;
+    padding: 18px 0;
+    font-family: 'Inter', sans-serif;
+    color: #3A404E;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar__list-resources {
+    display: flex;
+}
+
+.navbar__list-login {
+    display: flex;
+}
+
+.navbar__logo{
+    display: flex;
+    align-items: center;
+}
+
+.navbar__logo-image {
+    padding-right: 8px;
+}
+
+.navbar__logo-main {
+    text-decoration: none;
+    color: #3A404E;
+}
+
+.navbar__list-resources li a{
+    padding-right: 32px;
+    text-decoration: none;
+    color: #3A404E;
+}
+
+.navbar__list-login{
+    align-items: center;
+}
+
+.button-entrar, .button-cadastrar{
+    background: none;
+    border: none;
+    font-size: 16px;
+    color: #3A404E;
+    font-family: 'Inter', sans-serif;
+}
+
+.button-entrar{
+    padding-right: 20px;
+}
+
+.button-cadastrar{
+    background-color:#8E2424;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 8px ;
+}
