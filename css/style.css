@@ -1,12 +1,20 @@
-body {
-    background-color: white;
+:root{
+    --text-color: #667085;
+    --main-color: #8E2424;
 }
 
+body {
+    background-color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+/* Dia 1 - Navbar */
 nav {
     display: flex;
     padding: 18px 0;
-    font-family: 'Inter', sans-serif;
-    color: #3A404E;
+    color: var(--text-color);
     align-items: center;
     justify-content: space-around;
 }
@@ -36,7 +44,7 @@ nav {
 .navbar__list-resources li a{
     padding-right: 32px;
     text-decoration: none;
-    color: #3A404E;
+    color: var(--text-color);
 }
 
 .navbar__list-login{
@@ -47,8 +55,10 @@ nav {
     background: none;
     border: none;
     font-size: 16px;
-    color: #3A404E;
+    color: var(--text-color);
     font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    line-height: 24px;
 }
 
 .button-entrar{
@@ -56,8 +66,33 @@ nav {
 }
 
 .button-cadastrar{
-    background-color:#8E2424;
+    background-color: var(--main-color);
     color: white;
     padding: 10px 18px;
     border-radius: 8px ;
+}
+
+/* Dia 2 - Cabeçalho */
+.cabecalho {
+    text-align: center;
+    padding: 96px 270px 107px 270px;
+}
+
+.cabecalho span {
+    color: var(--main-color);
+    font-weight: 600;
+}
+
+.cabecalho h1 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    padding: 24px 0 36px 0;
+}
+
+.cabecalho p {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--text-color);
+    line-height: 30px;
 }
